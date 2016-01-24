@@ -32,6 +32,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# Melissa from Ruby Thursday
+# recommends the following gems:
+
   group :development, :test do
     gem 'better_errors'
     #will need to install Qt on your machine https://github.com/thoughtbot/capybara-webkit/wiki/Installing-Qt-and-compiling-capybara-webkit
