@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-  resources :starships
-  get 'admin/hacker_list'
-
-  devise_for :admins
-  devise_for :hackers
   root 'home#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
